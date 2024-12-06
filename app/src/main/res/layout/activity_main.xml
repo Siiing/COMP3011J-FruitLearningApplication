@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   android:background="@mipmap/bg">
+
+
+    <!--author info-->
+    <ImageView
+        android:id="@+id/author_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="Author"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_waving_hand_24"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        />
+
+    <!--Welcome text-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/welcome_text"
+        android:textColor="#fc5185"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+    </TextView>
+
+
+    <!--help button-->
+    <ImageView
+        android:id="@+id/help_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="HELP"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_help_24"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        />
+
+    <!--setting button-->
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="SETTING"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_settings_24"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <!--four buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/main_button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/purple"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mainmenu"
+            android:textSize="18sp"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/fruit_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:background="@color/pink"
+            android:gravity="center"
+            android:text="@string/red"
+            android:textSize="18sp"
+            >
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>

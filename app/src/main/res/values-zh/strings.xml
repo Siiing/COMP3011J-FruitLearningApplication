@@ -1,0 +1,36 @@
+<resources>
+    <string name="author_title">开发人员信息</string>
+    <string name="author_info">开发人员：李思颖\n北工大学号：22372130\nUCD学号：22207236\n联系邮箱：siying.li@ucdconnect.ie</string>
+
+    <string name="app_name">一起认水果！</string>
+    <string name="welcome_text">一起来认识\n多种多样的水果吧 :P</string>
+    <string name="mainmenu">菜单</string>
+    <string name="red">水果</string>
+
+    <string name="help_title">帮助</string>
+    <string name="help_messages" translatable="false">欢迎点开使用守则！\n\n
+        在主界面下方，你可以看到两个颜色的按键！下面我将分别介绍它们！\n\n
+        1. 首先是紫色按键。当你点击它时，你可以随时返回到当前的主菜单界面。\n
+        2. 其次是粉色按键。当你点击它时，会跳转到水果的界面供你学习。\n\n
+        点击不同的按钮可以实现页面的切换！希望你度过愉快的学习时间:D</string>
+    <string name="ok_button">好的!</string>
+
+    <string name="setting">设置</string>
+    <string name="switch_language">切换语言</string>
+    <string name="exit">退出应用</string>
+    <string name="cancel">取消</string>
+
+    <string name="notice">*点击图片查看详情</string>
+    <string name="apple">苹果</string>
+    <string name="cherry">樱桃</string>
+    <string name="strawberry">草莓</string>
+    <string name="banana">香蕉</string>
+    <string name="lemon">柠檬</string>
+    <string name="mango">芒果</string>
+    <string name="avocado">牛油果</string>
+    <string name="grape">提子</string>
+    <string name="waterlemon">西瓜</string>
+    <string name="fruit_image">水果图片</string>
+
+
+</resources>

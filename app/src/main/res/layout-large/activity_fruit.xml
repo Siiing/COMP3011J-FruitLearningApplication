@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FruitActivity"
+    android:background="#fef0ff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/notice"
+        android:textColor="#fc5185"
+        android:textSize="30sp">
+    </TextView>
+
+    <!--the recycleView with a scrollbar-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical"
+        />
+
+    <!--buttons-->
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/main_button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/purple"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mainmenu"
+            android:textSize="40sp"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/fruit_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:background="@color/pink"
+            android:gravity="center"
+            android:text="@string/red"
+            android:textSize="40sp"
+            >
+        </Button>
+
+
+    </LinearLayout>
+</RelativeLayout>

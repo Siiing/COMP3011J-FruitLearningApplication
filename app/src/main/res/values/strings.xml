@@ -1,0 +1,34 @@
+<resources>
+    <string name="author_title">My Info</string>
+    <string name="author_info">This project was written by Siying.Li\nBJUT number: 22372130\nUCD number: 22207236\nemail:siying.li@ucdconnect.ie</string>
+
+    <string name="app_name">Fruit_Learning</string>
+    <string name="welcome_text">Welcome to learn\ncolorful fruits :P</string>
+    <string name="mainmenu">MainMenu</string>
+    <string name="red">Fruit</string>
+
+    <string name="help_title">Help</string>
+    <string name="help_messages" translatable="false">Here is the user help for you.\n\n
+        You can see four colorful buttons on the bottom!\n\n
+        1. The first purple button is for you to go back to this page wherever you are.\n
+        2. The second pink button is for you to know three red color fruits!\n\n
+        Click the buttons can switch to different pages! Hope you have a nice study period :D</string>
+    <string name="ok_button">OK!</string>
+
+    <string name="setting">Settings</string>
+    <string name="switch_language">Switch Language</string>
+    <string name="exit">Exit APP</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="notice">*click images to see the details!</string>
+    <string name="apple">Apple</string>
+    <string name="cherry">Cherry</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="banana">Banana</string>
+    <string name="lemon">Lemon</string>
+    <string name="mango">Mango</string>
+    <string name="avocado">Avocado</string>
+    <string name="grape">Grape</string>
+    <string name="waterlemon">Watermelon</string>
+    <string name="fruit_image">Fruit Image</string>
+</resources>
